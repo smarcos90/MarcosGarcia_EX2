@@ -1,0 +1,104 @@
+@font-face {
+    font-family: Street;
+    src: url('./font/street.otf');
+}
+
+:root {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./img/fondo2.jpg);
+}
+
+h1 {
+    font-family: Street;
+    color: crimson;
+    font-size: 46px;
+    text-align: center;
+}
+
+table {
+    width: 600px;
+    height: 800px;
+    border: 10px outset RGB(237, 175, 5);
+    border-radius: 10px;
+    background-color: black;
+    margin: auto;
+
+}
+
+#tdimg {
+    background-image: url(./img/fondocabecera.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    font-size: 40px;
+    color: whitesmoke;
+}
+
+tr,
+td {
+    width: 40px;
+    height: 45px;
+    font-family: Street;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: darkorange;
+    text-align: center;
+}
+
+H2 {
+    font-family: Street;
+    color: crimson;
+    font-size: 28px;
+    text-align: center;
+}
+
+#formulario {
+    width: 600px;
+    height: 1100px;
+    border: 10px outset rgb(237, 175, 5);
+    color: white;
+    border-radius: 10px;
+    background-color: black;
+    margin: auto;
+    font-size: 16px;
+    font-family: Verdana;
+    padding: 1rem;
+}
+
+#legends {
+    font-family: Street;
+    font-size: 14px;
+    color: rgb(237, 175, 5);
+    margin-bottom: 2rem;
+}
+
+#textArea {
+    width: 560px;
+}
+
+#button {
+    border: 1px solid crimson;
+    background-color: crimson;
+    font-family: Street;
+    font-size: 18px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 65px;
+    margin-bottom: 10px;
+}
+
+input,
+label {
+    display: inline-block;
+    margin-bottom: 2rem;
+    margin-right: auto;
+}
